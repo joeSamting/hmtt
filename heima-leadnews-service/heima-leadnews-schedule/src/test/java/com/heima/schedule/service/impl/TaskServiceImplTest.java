@@ -29,7 +29,7 @@ public class TaskServiceImplTest {
             task.setExecuteTime(new Date().getTime()+500*i);
 
             long taskId = taskService.addTask(task);
-        }
+}
     }
 
     @Test
